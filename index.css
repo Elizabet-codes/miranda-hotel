@@ -852,3 +852,19 @@ input {
         font-size:4rem;
     }
 }
+
+[data-scroll]{
+  transition:all 2s;
+}
+
+[data-scroll="in"]{
+  opacity:1;
+  transform:translateX(0);
+
+}
+
+[data-scroll="out"]{
+  opacity:0;
+  transform:translateX(-500px);
+  
+}

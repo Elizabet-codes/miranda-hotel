@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="hero-section">
+    <div data-scroll class="hero-section">
         <div class="hero-left-section h-s">
             <div class="hero-tagline">
                 <p>The Ultimate Luxury Experience</p>
@@ -29,7 +29,7 @@
     </div>
 
         <!-- calender-section -->
-        <div class="calender-section">
+        <div  data-scroll class="calender-section">
             <div class="cal-card">
                 <p class="cal-title">Check in<span class="icon-cal"><i class="fas fa-book-open"></i></span></p>
                 <p class="number">24<span>Jan</span><span><i class="fa fa-caret-down" aria-hidden="true"></i></span></p>
@@ -56,13 +56,13 @@
         </div>
 
           <!-- about-us-section -->
-    <section class="about-us">
-        <div class="about-us-text">
-         <div class="down-arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+    <section data-scroll class="about-us">
+        <div data-scroll class="about-us-text">
+         <div data-scroll class="down-arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
          <p class="sub-about-text">Since <span>1994</span></p>
          <h2>Situated In Prime Position At The Foot Of The Slopes Of Courchevel Moriond.</h2>
         </div>
-        <div class="about-us-cards">
+        <div data-scroll class="about-us-cards">
             <div class="about-us-card">
             <div class="card-item">
              <i class="fas fa-coffee"></i>
@@ -98,7 +98,7 @@
 
        <!-- lodging-section -->
 
-    <section class="lodging-area">
+    <section data-scroll class="lodging-area">
         <div class="lodging">
         <div class="lodging-txt">
             <li>Room type</li>
@@ -112,7 +112,7 @@
             <li>Relax</li>
         </div>
     </div>
-    <div class="rooms-view">
+    <div data-scroll class="rooms-view">
       <div class="room">
           <img src="img/pendora.jpg" alt="">
           <div class="txt-hover">
@@ -151,7 +151,7 @@
 
 
     <!-- section maincalltoaction -->
-   <section class="call-to-action-section">
+   <section data-scroll class="call-to-action-section">
     <div class="left-cta-sect">
         <p>Call to Action</p>
         <h3>The Thin<br>Escape</h3>
@@ -192,7 +192,7 @@
 <div class="cta-border-line"></div>
 
 <!-- tour-section -->
-<div class="tour">
+<div data-scroll class="tour">
     <div class="tour-left-area">
      <p class="tour-heading">Take a tour</p>
      <h3>Discover Our Underground</h3>
@@ -208,7 +208,7 @@
 
 
 <!-- testimonialssection -->
-<section class="testimonials">
+<section data-scroll class="testimonials">
     <div class="testimonial-heading">
         <p>testimonials</p>
         <h3>Client Feedback</h3>
@@ -267,7 +267,7 @@
 </div>
 
    <!-- newsfeeds -->
-   <section class="newsfeed">
+   <section data-scroll class="newsfeed">
     <div class="newsfeed-top">
  <div class="feed-left">
      <p>blog</p>
@@ -282,7 +282,7 @@
      </div>
  </div>
 </div>
-<div class="news-cards">
+<div data-scroll class="news-cards">
     <div class="news-card">
         <img src="img/newsfeed-1.jpeg" alt="">
         <div class="admin-area">
@@ -355,16 +355,22 @@
    <div class="copyright-area">
     <div class="copyright-txt">Copyright by &copy; Elizabet</div>
     <div class="contact-icons">
-        <div class="facebook icon"><i class="fab fa-facebook-f"></i></div>
-        <div class="twitter icon"><i class="fab fa-twitter"></i></div>
-        <div class="linkedin icon"><i class="fab fa-linkedin-in"></i></div>
-        <div class="youtube icon"><i class="fab fa-youtube"></i></div>
+        <div data-scroll class="facebook icon"><i class="fab fa-facebook-f"></i></div>
+        <div data-scroll class="twitter icon"><i class="fab fa-twitter"></i></div>
+        <div data-scroll class="linkedin icon"><i class="fab fa-linkedin-in"></i></div>
+        <div data-scroll class="youtube icon"><i class="fab fa-youtube"></i></div>
     </div>
 </div>
 
 
 </div>
 
-    
+
+   
+   
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script>
+    ScrollOut();
+</script>
 </body>
 </html>
